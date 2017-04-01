@@ -1,4 +1,4 @@
-#Hadoop Distributed File System
+# Hadoop Distributed File System
 
 Data files are stored in the HDFS which, from a high level, looks like a regular file system but behind the scenes behaves differently
 
@@ -26,9 +26,8 @@ There is a **daemon**, or piece of software, running on each of the machines in 
 
 -
 
-###Namenode
+### Namenode
 
 The **Namenode** keeps track of which nodes in the cluster make up a whole file in the HDFS. The information stored in the Namenode is known as the **metadata**
 
 When a file is uploaded into HDFS, after the file is split into different blocks, two copies of each block are created and stored in other nodes so that if you lose one node then the Namenode can just use the copies instead and create more copies to replace the lost node
-

@@ -1,4 +1,4 @@
-#Running A Job
+# Running A Job
 
 MapReduce code is often written in Java
 
@@ -6,13 +6,13 @@ We will use **Hadoop Streaming** to write our MapReduce code in Python since it 
 
 ***
 
-###Syntax for running a hadoop job
+### Syntax for running a hadoop job
 
 hs {mapper script} {reducer script} {input_file} {output directory}
 
 ***
 
-###Example of Running a Job
+### Example of Running a Job
 
 hadoop jar /path/to/jar/file/jarfile.jar -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py -input myinput -output joboutput
 
@@ -42,4 +42,4 @@ The above command will take put the output of the job into a text file on  your 
 
 -
 
-#####When running a hadoop job - the output directory must not already exist
+##### When running a hadoop job - the output directory must not already exist

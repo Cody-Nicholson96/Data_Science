@@ -1,4 +1,4 @@
-#Basic Hadoop Commands
+# Basic Hadoop Commands
 
 Hadoop commands closely resemble standard Unix commands
 

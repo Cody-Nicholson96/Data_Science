@@ -1,9 +1,8 @@
-Categories
+### Categories
 
 
 The Report Editor for a pivot table contains several categories you can use to help build a report.
 You can add fields into the following categories:
-
 
 - Rows and Columns will appear in the row and column headers of your pivot table report.
 
@@ -14,17 +13,15 @@ These values will allow you to draw conclusions from data in your Row and Column
 
 Note: You can't add the same field to multiple categories of your pivot table report because it would create duplicate calculations in the table.
 
+-
 
-
-Fields
-
+### Fields
 
 A field is a subset of your data that appears in a column of your spreadsheet.
 The column header is the name of the field.
 Adding fields to categories in the Report Editor will populate data into your pivot table report.
 
-To add a field:
-
+#####To add a field
 
 1. Open the Report Editor in your pivot table.
 
@@ -37,13 +34,12 @@ To add a field:
 
 4. Repeat steps 2 and 3 for each additional field. Multiple fields can be added to each category.
 
+-
 
-
-Calculated Fields
+#### Calculated Fields
 
 
 If you want to add a field to your pivot table that performs calculations based on other fields in your pivot table, you can add a calculated field.
-
 
 1. Open the Report Editor in your pivot table.
 

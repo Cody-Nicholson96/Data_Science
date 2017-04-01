@@ -1,4 +1,4 @@
-#Variety
+# Variety
 
 In order for data to fit into SQL or Oracle made databases, the data needs to be unstructured or semi-structured data
 

@@ -1,4 +1,4 @@
-#Daemons Of MapReduce
+# Daemons Of MapReduce
 
 A **Daemon** is a piece of code running all the time on each of the machines in the cluster
 

@@ -1,4 +1,4 @@
-#MapReduce
+# MapReduce
 
 MapReduce processes data in HDFS
 
@@ -6,7 +6,7 @@ MapReduce is designed to process data in parallel, meaning that your file is bro
 
 -
 
-###In MapReduce there are Mappers and Reducers
+### In MapReduce there are Mappers and Reducers
 
 **Mappers** work in parallel to collect all the data and divide it into different piles based on a **Key** (Maybe you divide your data by city, user, company, etc.)
 
@@ -24,14 +24,13 @@ Finally, each **Reducers** works on one set of data at a time based on the Key, 
 
 -
 
-Example:
+#####Example
 
 Data = {(Chicago, 12), (Miami, 33), (New York, 29), (Chicago, 56), (Miami, 40), (Miami, 7), (Chicago, 52), (Miami, 3), (New York, 89), (Chicago, 56), (Miami, 4), (Miami, 67)}
 
+#### MAPPING
 
-MAPPING:
-
-Some amont of Mappers process this data in parallel, in this case 2:
+Some amount of Mappers process this data in parallel, in this case 2:
 
 Mapper 1: {(Chicago, 12), (Chicago, 56), (Chicago, 52)}, {(Miami, 4), (Miami, 67)}
 
@@ -40,12 +39,12 @@ Mapper 2: {(Chicago, 56)}, {(Miami, 33), (Miami, 7), (Miami, 3)}, {(New York, 29
 Notice all the data has been collected in parallel and stored in separate piles based on the Key
 
 
-SHUFFLE:
+#####SHUFFLE:
 
 These piles of reports are sent to the Reducers
 
 
-SORT:
+#####SORT:
 
 The Reducers put the data into sorted order as seen below
 

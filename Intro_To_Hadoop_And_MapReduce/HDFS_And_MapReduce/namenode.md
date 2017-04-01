@@ -1,8 +1,8 @@
-#NameNode
+# NameNode
 
 The NameNode holds metadata that keeps track of where all the blocks of your datafiles are stored in the cluster
 
-If the NameNode is lost, all the information on the cluster becomes inaccesible
+If the NameNode is lost, all the information on the cluster becomes inaccessible
 
 -
 

@@ -1,9 +1,10 @@
+# Format And Edit Pivot Table Report
+
 After you build your pivot table report, you can go back at any time to format or edit your pivot table report
 
+-
 
-
-Editing the data range:
-
+### Editing the data range
 
 The fields listed in the Report Editor depend on the data range selected for your pivot table.
 Each column header in the selected data range will appear as a field in the Report Editor.
@@ -13,10 +14,9 @@ To change the data range, follow these steps:
 
 2. In the dialog that appears, type a new data range, or click the tab with the full data set and manually select a new range of cells.
 
+-
 
-
-Cell borders, colors, and fonts:
-
+### Cell borders, colors, and fonts
 
 Pivot table reports have the same formatting options as the rest of your spreadsheet.
 Here are some of the things you can do:
@@ -35,9 +35,9 @@ You can't change row and column headers in your report, as they are populated fr
 To make a change, go to your source spreadsheet and adjust the column header.
 Doing so will change the titles of the corresponding fields in your pivot table report.
 
+-
 
-
-Copying and pasting:
+### Copying and pasting
 
 
 To paste your pivot table report into another spreadsheet or sheet tab, follow these steps:
@@ -48,9 +48,7 @@ To paste your pivot table report into another spreadsheet or sheet tab, follow t
 
 3. From the Edit menu, select Paste values only.
 
-
-To paste your pivot table report into a Google document or presentation, follow these steps:
-
+##### To paste your pivot table report into a Google document or presentation, follow these steps:
 
 1. Select the cells you want to copy from your pivot table report.
 
@@ -59,3 +57,4 @@ To paste your pivot table report into a Google document or presentation, follow 
 3. Select the Copy cell range (N rows x N columns) option.
 
 4. In the text document or presentation where you'd like to paste the report, click the web clipboard icon.
+5. 

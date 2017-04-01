@@ -1,5 +1,6 @@
-There are four pieces of information that you will need in order to build the VLOOKUP syntax:
+# VLookup
 
+There are four pieces of information that you will need in order to build the VLOOKUP syntax:
 
 1. The value you want to look up, also called the lookup value.
 
