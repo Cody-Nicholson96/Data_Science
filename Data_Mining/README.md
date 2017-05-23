@@ -9,8 +9,6 @@ This course is about:
 - Evaluation of the data mining model (comparisons of different data mining tools)
 - Visualization using Data Mining
 
--
-
 ### Learning Goals
 
 - Identify basic concepts, terminology, models, and methods in the field of data mining
